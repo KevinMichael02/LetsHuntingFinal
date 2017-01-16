@@ -50,11 +50,7 @@
 
     <!-- Services Section -->
     <section id="services">
-
- <!-- Services Section -->
-    <section id="services">
-
-       
+    
     <header class="business-header">
         <div class="container">
             <div class="row">
@@ -110,7 +106,6 @@
                   </div>
                 </div>
             </div>
-        </div>
     </header>
 
 
