@@ -5,7 +5,7 @@ $route['default_controller'] = 'home';
 $route['tentang'] = 'tentang';
 $route['struktur'] = 'struktur';
 $route['saran'] = 'saran';
-
+$route['connect'] = 'connect';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
