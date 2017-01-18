@@ -15,25 +15,25 @@
                         <div class="form-group">
                             <label for="inputEmail" class="col-lg-2 control-label">Nama</label>
                             <div class="col-lg-6">
-                                <input type="text" name="nama" class="form-control" id="inputEmail" placeholder="Nama">
+                                <input type="text" name="nama_fotografer" class="form-control" id="inputEmail" placeholder="Nama">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputEmail" class="col-lg-2 control-label">Komunitas</label>
                             <div class="col-lg-6">
-                                <input type="text" name="komunitas" class="form-control" id="inputEmail" placeholder="komunitas">
+                                <input type="text" name="komunitas_fotografer" class="form-control" id="inputEmail" placeholder="komunitas">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputEmail" class="col-lg-2 control-label">Facebook</label>
                             <div class="col-lg-6">
-                                <input type="text" name="facebook" class="form-control" id="inputEmail" placeholder="facebook">
+                                <input type="text" name="link_facebook" class="form-control" id="inputEmail" placeholder="facebook">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputEmail" class="col-lg-2 control-label">Contact</label>
                             <div class="col-lg-6">
-                                <input type="text" name="contact" class="form-control" id="inputEmail" placeholder="contact">
+                                <input type="text" name="phone" class="form-control" id="inputEmail" placeholder="contact">
                             </div>
                         </div>
                                
@@ -48,7 +48,6 @@
                 </div>
               </div>
             </div>
-          </div>
       </header>
     </section>
 
