@@ -43,3 +43,8 @@
             </div>
         </div>
     </section>
+
+<footer>
+    <hr>
+    <p> <a href="http://www.kharisma.ac.id/" target="_blank">STMIK KHARISMA</a>
+</footer>

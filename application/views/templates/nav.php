@@ -8,7 +8,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Let's Hunting</a>
+                <a class="navbar-brand page-scroll" href="https://www.facebook.com/groups/177374530181/?fref=ts">Let's Hunting</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,21 +18,29 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a href="home">Pendaftaran</a>
+                        <a href="<?= base_url()?>home">Pendaftaran</a>
                     </li>
                     <li>
-                        <a href="tentang">Tentang UKM</a>
+                        <a href="<?= base_url()?>tentang">Tentang UKM</a>
                     </li>
                     <li>
-                        <a href="struktur">struktur organisasi</a>
+                        <a href="<?= base_url()?>saran">Saran & Kritik</a>
                     </li>
                     <li>
-                        <a href="saran">Saran & Kritik</a>
+                        <a href="<?= base_url()?>connect">Connect</a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url()?>infokegiatan">Info Kegiatan</a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url()?>anggota">Anggota</a>
                     </li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <button class="btn btn-outline-primary form-inline float-xs-right" type="submit" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in"></i> Sign In  </button>
+                    <li>
+                        <a href="<?= base_url()?>admin">Admin</a>
+                    </li>
                 </ul>
 
             </div>

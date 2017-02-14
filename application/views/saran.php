@@ -1,50 +1,41 @@
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title" id="exampleModalLabel">Sign In</h4>
-                </div>
-
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                          <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                          <input type="email" class="form-control form-control-sm" id="exampleInputEmail3" placeholder="Enter email">
-                        </div>
-
-                        <div class="form-group">
-                          <label class="sr-only" for="exampleInputPassword3">Password</label>
-                          <input type="password" class="form-control form-control-sm" id="exampleInputPassword3" placeholder="Password">
-                        </div>
-
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox"> Remember me
-                            </label>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="modal-footer">
-                    <button class="btn btn-primary" type="submit">Sign In</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header -->
+ <!-- Header -->
     <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Saran & kritik</h2>
-                    <h3 class="section-heading">under construction</h3>
-                    <h3 class="section-subheading text-muted"></h3>
+                    <h2 class="section-heading">Kritik & saran</h2>
+                    <h3 class="section-heading"></h3>
+
+                    <!-- Main Content -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                                <form class="form-signin" action="<?=base_url()?>saran/saran" method="post">
+                                <div class="row">
+                                    <div class="form-group col-xs-12">
+                                    <br>
+                                        <h4>Nama :</h4>
+                                        <label for="inputNama" class="sr-only">Nama</label>
+                                            <input type="text" id="inputNama" class="form-control" placeholder="Nama" name="nama" required autofocus><br>
+
+                                        <h4>Kritik & Saran :</h4>
+                                        <textarea rows="5" class="form-control" placeholder="Masukkan Kritik & Saran" id="message" name="saran"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <button type="submit" class="btn btn-primary" value="kirim">Kirim</button>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer>
+        <hr>
+        <p> <a href="http://www.kharisma.ac.id/" target="_blank">STMIK KHARISMA</a>
+    </footer>

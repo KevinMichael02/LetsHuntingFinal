@@ -1,43 +1,4 @@
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title" id="exampleModalLabel">Sign In</h4>
-                </div>
-
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                          <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                          <input type="email" class="form-control form-control-sm" id="exampleInputEmail3" placeholder="Enter email">
-                        </div>
-
-                        <div class="form-group">
-                          <label class="sr-only" for="exampleInputPassword3">Password</label>
-                          <input type="password" class="form-control form-control-sm" id="exampleInputPassword3" placeholder="Password">
-                        </div>
-
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox"> Remember me
-                            </label>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="modal-footer">
-                    <button class="btn btn-primary" type="submit">Sign In</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header -->
+ <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
@@ -48,7 +9,57 @@
         </div>
     </header>
 
-    <!-- Services Section -->
-    <section id="services">
 
-    </section>
+    <!-- Services Section -->
+                  <p id="services">
+                    <div class="container">
+                      <div class="col-md-6 col-md-push-3">
+                        <form class="form-signin" action="<?=base_url()?>home/daftar" method="post">
+                          <br><br><br>
+                          <center>
+                          <h2 class="section-heading">Formulir Pendaftaran</h2>
+                          <br><br></center>
+
+                        <h4>Nama lengkap :</h4>
+                          <label for="inputNama" class="sr-only">Nama Lengkap</label>
+                          <input type="text" id="inputNama" class="form-control" placeholder="Nama Lengkap" name="namalengkap" required autofocus>
+                          <br>
+
+                        <h4>Nim :</h4>
+                          <label for="inputNim" class="sr-only">Nim</label>
+                          <input type="text" id="inputNim" class="form-control" placeholder="Nim" name="nim" id="nim" required>
+                          <br>
+                          <p id="warning_nim"> </p>
+        
+                        <h4>Alamat :</h4>
+                          <label for="inputAlamat" class="sr-only">Alamat</label>
+                          <input type="text" id="inputPassword" class="form-control" placeholder="Alamat" name="alamat" required>
+                          <br>
+
+                        <h4>No. Telepon / HP :</h4>
+                          <label for="inputNotlp" class="sr-only">No. Telepon</label>
+                          <input type="text" id="inputPassword" class="form-control" placeholder="No. Telepon" name="telepon" required>
+                          <br>
+
+                        <h4>Email :</h4>
+                          <label for="inputEmail" class="sr-only">Email address</label>
+                          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required >
+                          <br>
+
+                        <div class="col-lg-10 col-lg-offset-4">
+                                <button type="submit" class="btn btn-primary" value="Kirim">Daftar</button>
+                        </div>
+
+                        </form>
+                      </div>
+                    </div>
+                  </p>
+
+
+                <footer>
+                  <hr>
+                  <p> <a href="http://www.kharisma.ac.id/" target="_blank">STMIK KHARISMA</a>
+                </footer>
+
+
+
