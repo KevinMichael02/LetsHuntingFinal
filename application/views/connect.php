@@ -15,7 +15,7 @@
                     }(document, 'script', 'facebook-jssdk'));</script>
 
                     <center>
-                        <div class="fb-page" data-href="https://www.facebook.com/Lets-Hunting-1305775196128107/" data-tabs="timeline" data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/OurVoiceOutTeam" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/OurVoiceOutTeam">Our VOICE Our Team</a></blockquote>
+                        <div class="fb-page" data-href="https://www.facebook.com/Lets-Hunting-1305775196128107/" data-tabs="timeline" data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/OurVoiceOutTeam" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Lets-Hunting-1305775196128107/">Let's Hunting</a></blockquote>
                         </div>
                     </center>
                 </div>
